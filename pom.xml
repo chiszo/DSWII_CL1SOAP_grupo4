@@ -78,7 +78,7 @@
 				</executions>
 				<configuration>
 					<sources>
-						<source>${project.basedir}/src/main/resources/xsd/autor.xsd</source>
+						<source>${project.basedir}/src/main/resources/xsd/pregunta2.xsd</source>
 					</sources>
 					<outputDirectory>src/main/java</outputDirectory>
 					<clearOutputDir>false</clearOutputDir>

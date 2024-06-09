@@ -3,7 +3,7 @@
            targetNamespace="http://www.cibertec.edu.pe/ws/objects"
            elementFormDefault="qualified">
 
-    <!--Obtener domicilios-->
+    <!--Obtener autores-->
     <xs:element name="getAutoresRequest">
         <xs:complexType>
             <xs:sequence/>
@@ -20,7 +20,7 @@
     </xs:element>
 
 
-    <!--Buscar domicilios x ID-->
+    <!--Buscar autor x ID-->
 
     <xs:element name="getAutorRequest">
         <xs:complexType>
@@ -38,7 +38,7 @@
         </xs:complexType>
     </xs:element>
 
-    <!--Guardar y actualizar domicilios-->
+    <!--Guardar y actualizar autores-->
 
     <xs:element name="postAutorRequest">
         <xs:complexType>

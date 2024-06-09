@@ -2,7 +2,7 @@
 // Este archivo ha sido generado por Eclipse Implementation of JAXB v3.0.0 
 // Visite https://eclipse-ee4j.github.io/jaxb-ri 
 // Todas las modificaciones realizadas en este archivo se perderán si se vuelve a compilar el esquema de origen. 
-// Generado el: 2024.06.08 a las 08:43:35 PM PET 
+// Generado el: 2024.06.09 a las 09:30:00 AM PET 
 //
 
 
@@ -37,59 +37,67 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link GetAutoresRequest }
+     * Create an instance of {@link GetAnoBisiestoRequest }
      * 
      */
-    public GetAutoresRequest createGetAutoresRequest() {
-        return new GetAutoresRequest();
+    public GetAnoBisiestoRequest createGetAnoBisiestoRequest() {
+        return new GetAnoBisiestoRequest();
     }
 
     /**
-     * Create an instance of {@link GetAutoresResponse }
+     * Create an instance of {@link GetAnoBisiestoResponse }
      * 
      */
-    public GetAutoresResponse createGetAutoresResponse() {
-        return new GetAutoresResponse();
+    public GetAnoBisiestoResponse createGetAnoBisiestoResponse() {
+        return new GetAnoBisiestoResponse();
     }
 
     /**
-     * Create an instance of {@link Autorws }
+     * Create an instance of {@link GetPromedioRequest }
      * 
      */
-    public Autorws createAutorws() {
-        return new Autorws();
+    public GetPromedioRequest createGetPromedioRequest() {
+        return new GetPromedioRequest();
     }
 
     /**
-     * Create an instance of {@link GetAutorRequest }
+     * Create an instance of {@link GetPromedioResponse }
      * 
      */
-    public GetAutorRequest createGetAutorRequest() {
-        return new GetAutorRequest();
+    public GetPromedioResponse createGetPromedioResponse() {
+        return new GetPromedioResponse();
     }
 
     /**
-     * Create an instance of {@link GetAutorResponse }
+     * Create an instance of {@link GetSerieNumeroRequest }
      * 
      */
-    public GetAutorResponse createGetAutorResponse() {
-        return new GetAutorResponse();
+    public GetSerieNumeroRequest createGetSerieNumeroRequest() {
+        return new GetSerieNumeroRequest();
     }
 
     /**
-     * Create an instance of {@link PostAutorRequest }
+     * Create an instance of {@link GetSerieNumeroResponse }
      * 
      */
-    public PostAutorRequest createPostAutorRequest() {
-        return new PostAutorRequest();
+    public GetSerieNumeroResponse createGetSerieNumeroResponse() {
+        return new GetSerieNumeroResponse();
     }
 
     /**
-     * Create an instance of {@link PostAutorResponse }
+     * Create an instance of {@link GetAlcoholemiaRequest }
      * 
      */
-    public PostAutorResponse createPostAutorResponse() {
-        return new PostAutorResponse();
+    public GetAlcoholemiaRequest createGetAlcoholemiaRequest() {
+        return new GetAlcoholemiaRequest();
+    }
+
+    /**
+     * Create an instance of {@link GetAlcoholemiaResponse }
+     * 
+     */
+    public GetAlcoholemiaResponse createGetAlcoholemiaResponse() {
+        return new GetAlcoholemiaResponse();
     }
 
 }

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<bindings version="3.0" xmlns="https://jakarta.ee/xml/ns/jaxb">
+  <!--
+
+Este archivo ha sido generado por Eclipse Implementation of JAXB v3.0.0 
+Visite https://eclipse-ee4j.github.io/jaxb-ri 
+Todas las modificaciones realizadas en este archivo se perderán si se vuelve a compilar el esquema de origen. 
+Generado el: 2024.06.09 a las 09:30:00 AM PET 
+
+  -->
+  <bindings scd="x-schema::tns" xmlns:tns="http://www.cibertec.edu.pe/ws/objects">
+    <schemaBindings map="false">
+      <package name="pe.edu.cibertec.ws.objects"/>
+    </schemaBindings>
+    <bindings scd="tns:getAnoBisiestoRequest">
+      <class ref="pe.edu.cibertec.ws.objects.GetAnoBisiestoRequest"/>
+    </bindings>
+    <bindings scd="tns:getAnoBisiestoResponse">
+      <class ref="pe.edu.cibertec.ws.objects.GetAnoBisiestoResponse"/>
+    </bindings>
+    <bindings scd="tns:getPromedioRequest">
+      <class ref="pe.edu.cibertec.ws.objects.GetPromedioRequest"/>
+    </bindings>
+    <bindings scd="tns:getPromedioResponse">
+      <class ref="pe.edu.cibertec.ws.objects.GetPromedioResponse"/>
+    </bindings>
+    <bindings scd="tns:getSerieNumeroRequest">
+      <class ref="pe.edu.cibertec.ws.objects.GetSerieNumeroRequest"/>
+    </bindings>
+    <bindings scd="tns:getSerieNumeroResponse">
+      <class ref="pe.edu.cibertec.ws.objects.GetSerieNumeroResponse"/>
+    </bindings>
+    <bindings scd="tns:getAlcoholemiaRequest">
+      <class ref="pe.edu.cibertec.ws.objects.GetAlcoholemiaRequest"/>
+    </bindings>
+    <bindings scd="tns:getAlcoholemiaResponse">
+      <class ref="pe.edu.cibertec.ws.objects.GetAlcoholemiaResponse"/>
+    </bindings>
+  </bindings>
+</bindings>
+
