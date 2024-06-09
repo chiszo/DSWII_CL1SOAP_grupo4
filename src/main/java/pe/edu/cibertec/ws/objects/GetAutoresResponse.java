@@ -2,7 +2,7 @@
 // Este archivo ha sido generado por Eclipse Implementation of JAXB v3.0.0 
 // Visite https://eclipse-ee4j.github.io/jaxb-ri 
 // Todas las modificaciones realizadas en este archivo se perderán si se vuelve a compilar el esquema de origen. 
-// Generado el: 2024.06.08 a las 05:52:51 PM PET 
+// Generado el: 2024.06.08 a las 08:43:35 PM PET 
 //
 
 
@@ -27,7 +27,7 @@ import jakarta.xml.bind.annotation.XmlType;
  *   &lt;complexContent&gt;
  *     &lt;restriction base="{http://www.w3.org/2001/XMLSchema}anyType"&gt;
  *       &lt;sequence&gt;
- *         &lt;element name="domicilios" type="{http://www.cibertec.edu.pe/ws/objects}autorws" maxOccurs="unbounded"/&gt;
+ *         &lt;element name="autores" type="{http://www.cibertec.edu.pe/ws/objects}autorws" maxOccurs="unbounded"/&gt;
  *       &lt;/sequence&gt;
  *     &lt;/restriction&gt;
  *   &lt;/complexContent&gt;
@@ -38,27 +38,27 @@ import jakarta.xml.bind.annotation.XmlType;
  */
 @XmlAccessorType(XmlAccessType.FIELD)
 @XmlType(name = "", propOrder = {
-    "domicilios"
+    "autores"
 })
 @XmlRootElement(name = "getAutoresResponse")
 public class GetAutoresResponse {
 
     @XmlElement(required = true)
-    protected List<Autorws> domicilios;
+    protected List<Autorws> autores;
 
     /**
-     * Gets the value of the domicilios property.
+     * Gets the value of the autores property.
      * 
      * <p>
      * This accessor method returns a reference to the live list,
      * not a snapshot. Therefore any modification you make to the
      * returned list will be present inside the Jakarta XML Binding object.
-     * This is why there is not a <CODE>set</CODE> method for the domicilios property.
+     * This is why there is not a <CODE>set</CODE> method for the autores property.
      * 
      * <p>
      * For example, to add a new item, do as follows:
      * <pre>
-     *    getDomicilios().add(newItem);
+     *    getAutores().add(newItem);
      * </pre>
      * 
      * 
@@ -68,11 +68,11 @@ public class GetAutoresResponse {
      * 
      * 
      */
-    public List<Autorws> getDomicilios() {
-        if (domicilios == null) {
-            domicilios = new ArrayList<Autorws>();
+    public List<Autorws> getAutores() {
+        if (autores == null) {
+            autores = new ArrayList<Autorws>();
         }
-        return this.domicilios;
+        return this.autores;
     }
 
 }
